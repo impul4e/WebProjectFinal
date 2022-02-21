@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learnidox</title>
+    <link href="css/normalize.css" rel="stylesheet"  type="text/css">
+    <link href="css/style.css" rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c242390850.js" crossorigin="anonymous"></script>
+    <style>
+        h5{
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(images/Space.png);">
+
+
+<!--Logo -->
+<div class="container">
+    <div style="text-align: center; margin-bottom: 50px">
+        <a href="index2.html" >
+            <img src="images/LearnidoxLogo.png" alt="" class="" style="width: 60%; height: auto;margin-top: 50px; ">
+        </a>
+    </div>
+    <!--Menu -->
+
+    <ul class="nav nav-tabs nav-st sticky-top nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="index2.html">Home <i class="fas fa-home"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles <i class="far fa-newspaper"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About <i class="fas fa-info-circle"></i></a>
+        </li>
+    </ul>
+
+    <!--Articles' Block-->
+
+    <div class="containerA" id="articles">
+        <div class="row">
+            <table class="table table-borderless">
+                <tbody>
+                <tr>
+                    <td>
+                        <h5>Date: 02.10.2020</h5>
+                        <a href="articles/cw1.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/CW1.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <h5>Date: 30.09.2020</h5>
+                        <a href="articles/cw2.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/CW2.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <h5>Date: 28.09.2020</h5>
+                        <a href="articles/cw3.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/CW3.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Date: 01.08.2020</h5>
+                        <a href="articles/grandfather.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/paradoxes/Grandfather Paradox2.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <h5>Date: 18.07.2020</h5>
+                        <a href="articles/theseus.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/paradoxes/Theseus.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <h5>Date: 16.07.2020</h5>
+                        <a href="articles/Cat.html" target="_blank">
+                            <img class= "img-fluid img-thumbnail" src="images/paradoxes/Cat.png" alt="">
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br><br>
+    <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+            <li class="page-item ">
+                <a class="page-link" href="articles2.html" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item ">
+                <a class="page-link" href="articles.html">1</a>
+            </li>
+            <li class="page-item "  >
+                <a class="page-link" href="articles2.html">2 <span class="sr-only"></span></a>
+            </li>
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="articles3.html">3</a>
+            </li>
+            <li class="page-item disabled">
+                <a class="page-link" href="articles3.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="containerContacts" id="contacts">
+        <h3>Contacts:</h3>
+        <h5>Instagram: <a href="https://www.instagram.com/learnidox/" target="_blank">@learnidox</a></h5>
+        <h5>Phone Numbers:<a href="tel: +7 (708) 809-01-90 " >&nbsp;   +7 (708) 809-01-90</a></h5>
+        <h5><a href="tel: +7 (705) 524-99-31">  +7 (705) 524-99-31</a></h5>
+    </div>
+</div>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
+
+
+

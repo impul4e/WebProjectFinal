@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learnidox</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link href="../css/style.css" rel="stylesheet"  type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<style>
+		h2{
+			text-align: left;
+			vertical-align: middle;
+			font-size: 40px;
+			color: white;
+			text-shadow: 2px 2px black;
+		}
+
+	</style>
+</head>
+
+<body style="background-image: url(../images/Space.png);">
+<!--Logo -->
+<div class="container">
+	<div style="text-align: center; margin-bottom: 50px">
+		<img onclick="play()" src="../images/LearnidoxLogo.png" alt="" class="" style="width: 60%; height: auto;margin-top: 50px; ">
+		<audio id= "audio" src="Coldplay - Everglow [vzvuke.net].mp3"></audio>
+	</div>
+	<!--Menu -->
+	<ul class="nav nav-tabs nav-st nav-fill">
+		<li class="nav-item">
+			<a class="nav-link" href="../index2.html">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="../articles.html">Articles</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="../about.html">About</a>
+		</li>
+	</ul>
+	<br><br>
+
+	<h2>Принцип контрастного восприятия</h2><br>
+	<p><img class= "img-px3" src="../images/psychology/The Contrast Principle.png" alt="">
+
+	<p>Наш мозг не воспринимает окружающий мир в абсолютных величинах, он использует относительность. Вы наверняка замечали, что после того как придете из магазина с тяжелым пакетом какое-то время другие вещи кажутся чуть легче. Все потому, что мозг “запомнил” ощущение тяжелого пакета и теперь сравнивает вес других объектов с ним.
+		Этот эффект работает и в других случаях, но ярче всего его можно заметить при походе за покупками да и в целом в сфере торговли. И здесь он работает на полную, потому что цены вещей определяются лишь нормами общества и нет какого-либо абсолютного стандарта цены. </p>
+
+	<p>Продавцы активно пользуются этим эффектом. Замечали ли вы, что большая часть товаров продается в как минимум трех условных вариантах: “дешевом”, “среднем” и “дорогом”. Почему именно трех? Потому, что наличие трех вариантов повышает шанс, что вы купите хотя бы “средний” вариант. Предположим вы покупаете телевизор, “дорогой” вам не по карману и вы рассматриваете “средний”, который немного хуже. Вы сомневаетесь стоит ли брать его или стоит накопить чуть побольше, чтобы купить “дорогой”. И тут вы замечаете рядом “дешевый” телевизор, понимаете что “средний” не так уж плох и с радостью покупаете его. А продавцы радостно потирают руки, ведь так все и было задумано. Зачастую компании выпускают очень дорогой продукт, чтобы по сравнению с ним остальные их товары казались дешевыми и их продажи росли.</p>
+
+	<p>Этим приемом пользуются и торговцы недвижимостью. У многих из них есть пара домов в плохом состоянии, которые они не собираются продавать. Они нужны лишь для того, чтобы по сравнению с ними вполне обычные дома казались лучше и вы с радостью купили их. </p>
+	</p>
+	<p>Article: Quasar</p>
+	<p>Preview: Quantum</p>
+</div>
+
+<script src="../js/zooming.min.js"></script>
+<script>
+	new Zooming().listen('img');
+</script>
+<script>
+	function play() {
+		let x = document.getElementById("audio");
+		x.volume = 0.05;
+		x.play();
+	}
+	let scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
+
+
+
+

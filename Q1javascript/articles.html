@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learnidox</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet"  type="text/css">
+    <link href="css/style.css" rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c242390850.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        h5{
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(images/Space.png);">
+<div class="container">
+
+    <!--Logo -->
+
+    <div style="text-align: center; margin-bottom: 50px">
+        <img onclick="play()" src="images/LearnidoxLogo.png" alt="" class="" style="width: 60%; height: auto;margin-top: 50px; ">
+        <audio id= "audio" src="Skillet%20-%20Watching%20for%20comets.mp3"></audio>
+    </div>
+
+    <!--Menu -->
+
+    <ul class="nav nav-tabs nav-st sticky top nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="index2.html">Home <i class="fas fa-home"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles <i class="far fa-newspaper"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About <i class="fas fa-info-circle"></i></a>
+        </li>
+    </ul>
+
+    <!--Articles' Block-->
+
+        <div class="containerA-menu">
+            <ul >
+                <li class="active " id = "menu" onmouseover="mouseOver()" onmouseout="mouseOut()" data-filter="*">All</li>
+                <li class="paradox"  id = "menu2" onmouseover="mouseOver2()" onmouseout="mouseOut2()" data-filter=".paradox">Paradoxes</li>
+                <li class="genius" id = "menu3" onmouseover="mouseOver3()" onmouseout="mouseOut3()" data-filter=".genius">Geniuses of Humanity</li>
+                <li class="psychology" id = "menu4" onmouseover="mouseOver4()" onmouseout="mouseOut4()" data-filter=".psychology">Psychology</li>
+                <li class="he" id = "menu5" onmouseover="mouseOver5()" onmouseout="mouseOut5()" data-filter=".he">Historical Events</li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000" class="row containerA-item">
+            <div data-aos="fade-up" data-aos-duration="2000" class="item he col-sm-4">
+                <h5>Date: 02.10.2020</h5>
+                <a href="articles/cw1.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/CW1.png" alt="">
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="item he col-sm-4">
+                <h5>Date: 30.09.2020</h5>
+                <a href="articles/cw2.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/CW2.png" alt="">
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="item he col-sm-4">
+                <h5>Date: 28.09.2020</h5>
+                <a href="articles/cw3.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/CW3.png" alt="">
+                </a>
+            </div>
+
+
+            <div  class="item paradox col-sm-4">
+                <h5>Date: 01.08.2020</h5>
+                <a href="articles/grandfather.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/paradoxes/Grandfather Paradox2.png" alt="">
+                </a>
+            </div>
+            <div class="item genius col-sm-4">
+                <h5>Date: 05.08.2020</h5>
+                <a href="articles/galilei.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/geniuses/Galileo%20Galilei3.png" alt="">
+                </a>
+            </div>
+            <div class="item psychology col-sm-4">
+                <h5>Date: 03.08.2020</h5>
+                <a href="articles/rejection.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/psychology/Rejection-then-Retreat.png" alt="">
+                </a>
+            </div>
+
+
+            <div  class="item paradox col-sm-4">
+                <h5>Date: 18.07.2020</h5>
+                <a href="articles/theseus.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/paradoxes/Theseus.png" alt="">
+                </a>
+            </div>
+            <div class="item genius col-sm-4">
+                <h5>Date: 29.08.2020</h5>
+                <a href="articles/curie.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/geniuses/Marie%20Curie3.png" alt="">
+                </a>
+            </div>
+            <div class="item psychology col-sm-4">
+                <h5>Date: 27.07.2020</h5>
+                <a href="articles/reciprocation.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/psychology/The%20Reciprocation%20Principle(gift).png" alt="">
+                </a>
+            </div>
+
+
+            <div class="item paradox col-sm-4">
+                <h5>Date: 16.07.2020</h5>
+                <a href="articles/Cat.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/paradoxes/Cat.png" alt="">
+                </a>
+            </div>
+            <div class="item genius col-sm-4">
+                <h5>Date: 22.07.2020</h5>
+                <a href="articles/newton.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/geniuses/Newton.png" alt="">
+                </a>
+            </div>
+            <div class="item psychology col-sm-4">
+                <h5>Date: 20.07.2020</h5>
+                <a href="articles/contrast.html" target="_blank">
+                    <img class= "img-fluid img-thumbnail" src="images/psychology/The%20Contrast%20Principle.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+    <br><br>
+    <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item active" aria-current="page"><a class="page-link" href="articles.html">1</a></li>
+            <li class="page-item">
+                <a class="page-link" href="articles2.html">2 <span class="sr-only"></span></a>
+            </li>
+            <li class="page-item"><a class="page-link" href="articles3.html">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="articles2.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="containerContacts" id="contacts">
+        <h3 style="font-size:2vw;">Contacts:</h3>
+        <h5 style="font-size:2vw;">Instagram: <a href="https://www.instagram.com/learnidox/" target="_blank">@learnidox</a></h5>
+        <h5 style="font-size:2vw;">Phone Numbers:<a href="tel: +7 (708) 809-01-90 " >&nbsp;   +7 (708) 809-01-90</a></h5>
+        <h5 style="font-size:2vw;"><a href="tel: +7 (705) 524-99-31">  +7 (705) 524-99-31</a></h5>
+    </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Taking specific topics-->
+<script src="js/jquery.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script>
+    $('.containerA-menu ul li').click(function() {
+        $('.containerA-menu ul li').removeClass('active');
+        $(this).addClass('active');
+
+        var selector=$(this).attr('data-filter');
+        $('.containerA-item').isotope({
+            filter:selector
+        });
+        return false;
+    });
+</script>
+
+<script>
+    function mouseOver() {
+        document.getElementById("menu").style.color = "#8345a4";
+    }
+
+    function mouseOut() {
+        document.getElementById("menu").style.color = "white";
+    }
+    function mouseOver2() {
+        document.getElementById("menu2").style.color = "#8345a4";
+    }
+
+    function mouseOut2() {
+        document.getElementById("menu2").style.color = "white";
+    }
+    function mouseOver3() {
+        document.getElementById("menu3").style.color = "#8345a4";
+    }
+
+    function mouseOut3() {
+        document.getElementById("menu3").style.color = "white";
+    }
+    function mouseOver4() {
+        document.getElementById("menu4").style.color = "#8345a4";
+    }
+
+    function mouseOut4() {
+        document.getElementById("menu4").style.color = "white";
+    }
+
+    function mouseOver5() {
+        document.getElementById("menu5").style.color = "#8345a4";
+    }
+
+    function mouseOut5() {
+        document.getElementById("menu5").style.color = "white";
+    }
+</script>
+<script>
+    function play() {
+        let x = document.getElementById("audio");
+        x.volume = 0.05;
+        x.play();
+    }
+    let scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
+
+
+

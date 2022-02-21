@@ -1,0 +1,156 @@
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.nav{
+    color: black;
+}
+.nav-st{
+    font-size: 24px;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+.containerA-item{
+    margin-top: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.containerA-menu ul li{
+    margin-top: 50px;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 1em/1em;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.containerA-menu .active{
+
+    background-color:  #33143d;
+}
+.button {
+    margin-top: 100px;
+    padding: 15px 25px;
+    font-size: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #33143d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #8345a4}
+
+.button:active {
+    background-color: #33143d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.containerL{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    padding-right: auto;
+    padding-left: auto;
+    color: white;
+    text-align: justify;
+}
+.containerContacts{
+    margin-top: 100px;
+    padding-right: auto;
+    padding-left: auto;
+    color: white;
+    text-align: justify;
+}
+.author{
+
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-right: auto;
+    padding-left: auto;
+    color: white;
+    text-align: right;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.carousel-inner{
+    text-align: center;
+
+    text-orientation: center;
+    image-rendering: high-quality;
+}
+.carousel-item{
+    height: 300px;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #33143d;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #8345a4;
+}
+.hg{
+    vertical-align: middle;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.img-px{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.panel-heading{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-style: white;
+}
+
+.img-px3{
+    float:left;
+    margin: 7px 20px 5px 0px;
+    display: block;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: auto;
+
+}
+p{
+    text-align: justify;
+    margin-left: 0px;
+
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
